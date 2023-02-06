@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Home - Medi-Care</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header class="header">
+            <nav class="nav">
+                <h2 class="welcome">Agenda</h2>
+            </nav>
+        </header>
+        <aside id="aside">
+            <a href="Index.html"><h2 class="title2">MediCare</h2></a>
+            <h3 class="littlefont">Health & Clinic Specialists</h3>
+            <p>Brindamos servicios médicos. Tabajamos con un sistema integrador con la CCSS así como la conocida empresa Medismart.</p>
+            <p>Pregunte sobre nuestros servicios médicos y múltiples beneficios al afiliarse</p>
+            <br>
+            <br>
+            <a href="Contacto.html"><h2 style="padding-left: 10%;font-family: monospace" class="title2">Contáctenos</h2></a>
+        </aside>
+        <section class="dt">
+            <h2>Agregar nuevo evento</h2>
+            <form id="formPacientes">
+                <div class="row">
+                    <label class="lblForm">Título del Evento</label><br>
+                    <input type="text" placeholder="Ingrese la título" id="cedula" /><br/>
+                </div>
+                <div class="row">
+                    <label class="lblForm">Nombre del Evento:</label><br>
+                    <input type="text" placeholder="Ingrese el nombre" id="nombre"/><br/>
+                </div>
+                <div class="row">
+                    <label class="lblForm">Fecha</label><br>
+                    <input type="date" id="FEvt"/><br/>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="button" value="Guardar Evento" onclick="AddEvent()" id="text"/><br/>
+                </div>
+                <br>
+                <div class="row">
+                    <a href="Index.html">
+                    <input type="button" value="Volver" id="btnBack"/><br/>
+                     </a>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <label class="lblForm">Eventos Agregados</label><br>
+                    <textarea rows="5" cols="45" id="textarea"></textarea> <br/>
+                    
+                </div>
+            </form>
+        </section>
+        <script>
+            function AddEvent(){
+                let text = 'Nombre: ' + $("#nombre").val() + " /--/ " + $("#FEvt").val();
+                alert('Evento Agregado...' +'\n' + 'Nombre: ' + $("#nombre").val() + "/--/" + $("#FEvt").val());
+                $("#textarea").val(text);
+                
+            }
+            
+        </script>
+        
+        
+        
+        
+        <footer id="footer">
+            <strong style="font-size: 20px;font-family: cursive">MediCare &COPY; 2023</strong><br>
+            <i>By Fran.A.C</i>
+        </footer>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>

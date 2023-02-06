@@ -1,0 +1,237 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2 feb 2023, 20:39:39
+    Author     : HP PROBOOK
+*/
+
+.header{
+    background-color: orange;
+    height: 12%;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 100%;
+    
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    line-height: 80px
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    
+}
+
+#aside{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    height: 100%;
+    width: 15%;
+    background-color: deepskyblue;
+    color: black;
+}
+.title2{
+    font-family: cursive;
+    font-size: 30px;
+    padding-left: 20%;
+    color: white;
+    
+}
+
+.title2 a:visited{
+    color: transparent
+}
+
+
+.littlefont{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 12%;
+    padding-bottom: 45%;
+    color: white
+}
+
+#footer{
+    background-color: forestgreen;
+    color: black;
+    position: absolute;
+    bottom:0%;
+    left: 15%;
+    width: 100%;
+    height: 7.5%;
+    text-align: left;
+}
+
+.content-full-page{
+    position: absolute;
+    top:12%;
+    left: 15%;
+    height: 81%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    overflow: auto;
+}
+
+#contenido1{
+    position: absolute;
+    top:12%;
+    left: 15%;
+    height: 40.25%;
+    width: 42.5%;
+    background-color: powderblue;
+    color: black;
+    overflow: auto;
+    border: dotted
+}
+
+#contenido2{
+    position: absolute;
+    top:12%;
+    right: 0%;
+    height: 40.25%;
+    width: 42.5%;
+    background-color: powderblue;
+    color: black;
+    overflow: auto;
+    border: dotted
+}
+
+#contenido3{
+    position: absolute;
+    top: 52.7%;
+    left: 15%;
+    height: 39%;
+    width: 42.1%;
+    background-color: powderblue;
+    color: black;
+    overflow: auto;
+    border: dotted
+}
+
+#contenido4{
+    position: absolute;
+    top:52.7%;
+    right: 0%;
+    height: 39%;
+    width: 42.5%;
+    background-color: powderblue;
+    color: black;
+    overflow: auto;
+    border: dotted
+}
+
+.btnImage1 a:hover{
+    background-color:green;
+    color:white;
+}
+
+.btnImage1{
+    padding-left: 37%;
+}
+
+.btnImage2{
+    padding-left: 37%;
+}
+.btnImage3{
+    padding-left: 37%;
+}
+.btnImage4{
+    padding-left: 37%;
+}
+
+.btnFont1{
+    padding-left: 255px;
+    font-family: cursive
+}
+.btnFont2{
+    padding-left: 295px;
+    font-family: cursive
+}
+.btnFont3{
+    padding-left: 235px;
+    font-family: cursive
+}
+.btnFont4{
+    padding-left: 245px;
+    font-family: cursive
+}
+
+.welcome{
+    font-family: monospace;
+}
+
+.dt{
+   padding-left: 250px;
+   padding-top: 75px
+}
+
+.datatable{
+    
+}
+
+#encabezadoTabla{
+    font-size: 20px;
+    color: white;
+    background: green
+}
+
+table, th, tr, td{
+    border: 1px solid black;
+  border-radius: 5px
+}
+
+th{
+    font-family: serif
+}
+
+#tablaResumen tr{
+    font-size: 20px;
+    
+}
+
+#tablaResumen tr:nth-child(odd){
+    background: gainsboro;
+    color: black
+    
+}
+
+#tablaResumen tr:nth-child(even){
+    background: white;
+    color: black
+    
+}
+
+.lblForm{
+    font-size: 15px
+}
+
+p{
+    text-align: center;
+    font-family: serif;
+    color: white;
+    font-weight: bold
+}
+
+.normal{
+    color: black;
+    text-align: left;
+    font-family: Arial;
+    font-size: medium
+}
